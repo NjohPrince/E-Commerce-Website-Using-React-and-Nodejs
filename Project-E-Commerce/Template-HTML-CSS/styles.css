@@ -90,11 +90,15 @@ li{
   align-items: center;
   padding: 1rem;
 }
-.product-name{
+.product-name{ 
   font-size: 2rem;
 }
 .product-name a{
   font-weight: bold;
+}
+.product-name a:hover{
+  color: orangered;
+  transition: .3s;
 }
 .product-brand{
   font-size: 1.5rem;
