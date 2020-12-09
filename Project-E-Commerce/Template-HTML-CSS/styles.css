@@ -47,6 +47,11 @@ a {
   background-color: orangered;
   transition: 0.4s;
 }
+.btn:hover{
+  border: 2px solid orangered;
+  background-color: #000;
+  transition: 0.4s;
+}
 .header-links a:hover {
   color: orangered;
   transition: 0.4s;
