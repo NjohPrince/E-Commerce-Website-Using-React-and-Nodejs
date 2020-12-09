@@ -15,6 +15,9 @@ body {
 a {
   text-decoration: none;
 }
+li{
+  list-style: none;
+}
 .grid-container {
   display: grid;
   height: 100%;
