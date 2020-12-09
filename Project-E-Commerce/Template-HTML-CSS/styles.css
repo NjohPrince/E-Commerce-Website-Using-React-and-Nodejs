@@ -88,6 +88,25 @@ li {
   border-bottom: 1px solid #fff;
   transition: 0.4s;
 }
+.L-S-D-container{
+  margin: 1.7rem;
+  display: flex;
+  flex-direction: column;
+}
+.L-S-D-container a{
+  margin: 1rem;
+  color: #fff;
+  transition: color .4s;
+}
+.L-S-D-container a:hover{
+  color: orangered;
+  transition: .4s;
+}
+.L-S-D-container .btn{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
 .side-bar h3 {
   margin: 1.7rem;
   color: #fff;
