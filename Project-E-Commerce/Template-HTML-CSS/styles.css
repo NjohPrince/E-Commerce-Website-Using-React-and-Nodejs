@@ -9,7 +9,7 @@ body {
   font: 1.6rem sans-serif;
   height: 100vh;
 }
-a{
+a {
   text-decoration: none;
 }
 .grid-container {
@@ -20,7 +20,7 @@ a{
     "main"
     "footer";
   grid-template-columns: 1fr;
-  grid-template-rows: 5rem 1fr 5rem;
+  grid-template-rows: 7rem 1fr 7rem;
 }
 .header {
   grid-area: header;
@@ -28,6 +28,7 @@ a{
   background-color: #000;
   justify-content: space-between;
   align-items: center;
+  padding: 2rem;
 }
 .brand a {
   color: #fff;
@@ -35,16 +36,22 @@ a{
   font-weight: bold;
 }
 .header-links a {
+  margin-right: 15px;
   color: #fff;
-  transition: .5s;
+  transition: 0.4s;
 }
 .header-links a:hover {
   color: orangered;
-  transition: .5s;
+  transition: 0.4s;
 }
 .main {
   grid-area: main;
 }
 .footer {
   grid-area: footer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  color: rgb(68, 67, 67);
 }
