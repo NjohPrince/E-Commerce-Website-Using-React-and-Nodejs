@@ -11,7 +11,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 1.6rem;
   height: 100vh;
-  scroll-behavior: smooth;
+  scroll-behavior: smooth; 
 }
 a {
   text-decoration: none;
@@ -69,6 +69,9 @@ li {
 }
 .close-side-bar:focus {
   outline: none;
+}
+.side-bar > ul {
+  padding:  0;
 }
 .side-bar ul li {
   padding: 1.5rem;
