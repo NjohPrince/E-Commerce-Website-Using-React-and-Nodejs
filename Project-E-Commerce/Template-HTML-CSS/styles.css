@@ -40,7 +40,7 @@ li{
   padding: 1.5rem;
 }
 .brand a {
-  color: #fff;
+  color: blue;
   font-size: 2.5rem;
   font-weight: bold;
 }
@@ -76,15 +76,38 @@ li{
   justify-content: center;
   align-items: center;
 }
-.product{
+.products li{
   flex: 0 1 34rem;
+  padding: 0;
   margin: 1rem;
   height: 30rem;
   border-bottom: .1rem solid #c0c0c0;
 }
+.product{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.product-name{
+  font-size: 2rem;
+}
+.product-name a{
+  font-weight: bold;
+}
+.product-brand{
+  font-size: 1.5rem;
+  color: #818181
+}
+.product-price{
+  font-size: 2.3rem;
+  font-weight: bold;
+  color: orangered;
+}
 .product-image{
   max-width: 34rem;
-  max-height: 34rem;;
+  max-height: 34rem;
 }
 
 /* footer Section ----------------*/
