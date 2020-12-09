@@ -9,7 +9,7 @@ html {
 }
 body {
   font-family: "Poppins", sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   height: 100vh;
   scroll-behavior: smooth; 
 }
@@ -34,8 +34,8 @@ li {
 /* SideBar Section ----------------*/
 
 .brand button {
-  font-size: 3rem;
-  padding: 0.5rem;
+  font-size: 2.3rem;
+  padding: 0.4rem;
   background: none;
   border: none;
   color: #fff;
@@ -55,8 +55,8 @@ li {
 .close-side-bar {
   border-radius: 50%;
   border: 1px solid orangered;
-  width: 35px;
-  height: 35px;
+  width: 30px;
+  height: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -124,13 +124,13 @@ li {
   background-color: #000;
   justify-content: space-between;
   align-items: center;
-  padding: 1.5rem;
+  padding: 1.4rem;
   position: fixed;
   width: 100%;
 }
 .brand a {
   color: blue;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: bold;
 }
 .header-links a {
@@ -140,7 +140,7 @@ li {
 .btn {
   border: 2px solid white;
   border-radius: 5px;
-  padding: 12px;
+  padding: 9px;
   background-color: orangered;
   transition: 0.4s;
 }
@@ -166,7 +166,7 @@ li {
   flex-wrap: wrap;
 }
 .products li {
-  flex: 0 1 34rem;
+  flex: 0 1 30rem;
   padding: 0;
   margin: 1rem;
   height: 30rem;
