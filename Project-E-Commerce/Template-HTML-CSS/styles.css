@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 * {
   margin: 0;
   box-sizing: border-box;
@@ -6,7 +8,8 @@ html {
   font-size: 62.5%;
 }
 body {
-  font: 1.6rem sans-serif;
+    font-family: 'Poppins', sans-serif;
+  font-size: 1.6rem;
   height: 100vh;
 }
 a {
@@ -28,7 +31,7 @@ a {
   background-color: #000;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem;
+  padding: 1.5rem;
 }
 .brand a {
   color: #fff;
