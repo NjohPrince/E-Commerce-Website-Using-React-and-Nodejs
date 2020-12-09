@@ -32,16 +32,24 @@ li {
 
 /* SideBar Section ----------------*/
 
-.brand button{
+.brand button {
   font-size: 3rem;
-  padding: .5rem;
+  padding: 0.5rem;
   background: none;
   border: none;
   color: #fff;
   cursor: pointer;
 }
-.brand button:focus{
+.brand button:focus {
   outline: none;
+}
+.side-bar {
+  position: fixed;
+  transform: translateX(-30rem);
+  width: 30rem;
+}
+.side-bar.open {
+  transform: translateX(0);
 }
 
 /* header Section ----------------*/
