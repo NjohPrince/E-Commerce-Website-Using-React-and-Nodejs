@@ -51,6 +51,16 @@ li {
   height: 100vh;
   transition: transform.5s;
 }
+.side-bar ul li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.side-bar h3,
+.side-bar > ul > li > a{
+  color: #fff;
+  text-align: center;
+}
 .side-bar.open {
   transform: translateX(0);
   transition: .5s;
