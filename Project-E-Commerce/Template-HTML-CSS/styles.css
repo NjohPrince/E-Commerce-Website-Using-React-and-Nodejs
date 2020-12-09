@@ -40,6 +40,13 @@ a {
   color: #fff;
   transition: 0.4s;
 }
+.btn{
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 12px;
+  background-color: orangered;
+  transition: 0.4s;
+}
 .header-links a:hover {
   color: orangered;
   transition: 0.4s;
