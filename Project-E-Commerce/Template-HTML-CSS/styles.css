@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font: 1.6rem sans-serif;
+  height: 100vh;
+}
+a{
+  text-decoration: none;
+}
+.grid-container {
+  display: grid;
+  height: 100%;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+  grid-template-columns: 1fr;
+  grid-template-rows: 5rem 1fr 5rem;
+}
+.header {
+  grid-area: header;
+  display: flex;
+  background-color: #000;
+  justify-content: space-between;
+  align-items: center;
+}
+.main {
+  grid-area: main;
+}
+.footer {
+  grid-area: footer;
+}
