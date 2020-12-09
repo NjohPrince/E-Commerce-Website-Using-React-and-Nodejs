@@ -48,6 +48,7 @@ li {
   transform: translateX(-30rem);
   width: 30rem;
   background-color: #000;
+  height: 100vh;
 }
 .side-bar.open {
   transform: translateX(0);
