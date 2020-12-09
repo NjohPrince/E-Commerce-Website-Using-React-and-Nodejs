@@ -220,3 +220,11 @@ li {
   background-color: #000;
   color: rgb(68, 67, 67);
 }
+
+@media screen and (max-width: 670px){
+  .header-links .login,
+  .header-links .btn,
+  .header-links .developer{
+      display: none;
+  }
+}
