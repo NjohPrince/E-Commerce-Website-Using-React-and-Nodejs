@@ -1,5 +1,13 @@
 import './App.css';
 
+const openMenu = () => {
+  document.querySelector('.side-bar').classList.add('open');
+}
+
+const closeMenu = () => {
+  document.querySelector(".side-bar").classList.remove("open");
+};
+
 function App() {
   return (
     <div className="grid-container">
@@ -38,7 +46,7 @@ function App() {
             <div className="products-container">
                 <ul className="products">
                     <li className="product">
-                        <img className="product-image" src="images/motorcycle.png" alt="product" />
+                        <img className="product-image" src="/images/motorcycle.png" alt="product" />
                         <div className="product-name">
                             <a href="product.html">Motorcycle</a>
                         </div>
@@ -47,7 +55,7 @@ function App() {
                         <div className="product-rating">Number of Stars  5 reviews </div> 
                     </li>
                     <li className="product">
-                        <img className="product-image" src="images/ford.png" alt="product" />
+                        <img className="product-image" src="/images/ford.png" alt="product" />
                         <div className="product-name">
                             <a href="product.html">Car</a>
                         </div>
@@ -56,7 +64,7 @@ function App() {
                         <div className="product-rating">Number of Stars  8 reviews </div>
                     </li>
                     <li className="product">
-                        <img className="product-image" src="images/motorcycle2.png" alt="product" />
+                        <img className="product-image" src="/images/motorcycle2.png" alt="product" />
                         <div className="product-name">
                             <a href="product.html">Motorcycle</a>
                         </div>
@@ -65,7 +73,7 @@ function App() {
                         <div className="product-rating">Number of Stars  3 reviews </div>
                     </li>
                     <li className="product">
-                        <img className="product-image" src="images/fordBig.png" alt="product" />
+                        <img className="product-image" src="/images/fordBig.png" alt="product" />
                         <div className="product-name">
                             <a href="product.html">Big Car</a>
                         </div>
@@ -74,7 +82,7 @@ function App() {
                         <div className="product-rating">Number of Stars  3 reviews </div>
                     </li>
                     <li className="product">
-                        <img className="product-image" src="images/fordOpen.png" alt="product" />
+                        <img className="product-image" src="/images/fordOpen.png" alt="product" />
                         <div className="product-name">
                             <a href="product.html">Lorry Ford</a>
                         </div>
@@ -83,7 +91,7 @@ function App() {
                         <div className="product-rating">Number of Stars  4 reviews </div>
                     </li>
                     <li className="product">
-                        <img className="product-image" src="images/tractorGo.png" alt="product" />
+                        <img className="product-image" src="/images/tractorGo.png" alt="product" />
                         <div className="product-name">
                             <a href="product.html">Tractor Go</a>
                         </div>
@@ -92,7 +100,7 @@ function App() {
                         <div className="product-rating">Number of Stars  7 reviews </div>
                     </li>
                     <li className="product">
-                        <img className="product-image" src="images/tractors.png" alt="product" />
+                        <img className="product-image" src="/images/tractors.png" alt="product" />
                         <div className="product-name">
                             <a href="product.html">Tractor Div</a>
                         </div>
@@ -101,7 +109,7 @@ function App() {
                         <div className="product-rating">Number of Stars  15 reviews </div>
                     </li>
                     <li className="product">
-                        <img className="product-image" src="images/sports.png" alt="product" />
+                        <img className="product-image" src="/images/sports.png" alt="product" />
                         <div className="product-name">
                             <a href="product.html">Honda</a>
                         </div>
@@ -110,7 +118,7 @@ function App() {
                         <div className="product-rating">Number of Stars  11 reviews </div>
                     </li>
                     <li className="product">
-                        <img className="product-image" src="images/sports2.png" alt="product" />
+                        <img className="product-image" src="/images/sports2.png" alt="product" />
                         <div className="product-name">
                             <a href="product.html">Sports Bike</a>
                         </div>
