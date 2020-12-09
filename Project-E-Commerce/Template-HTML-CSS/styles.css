@@ -75,6 +75,7 @@ li{
   display: flex;
   justify-content: center;
   align-items: center;
+   padding: 1.5rem;
 }
 .products li{
   flex: 0 1 34rem;
@@ -88,7 +89,6 @@ li{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
 }
 .product-name{ 
   font-size: 2rem;
@@ -102,12 +102,18 @@ li{
 }
 .product-brand{
   font-size: 1.5rem;
-  color: #818181
+  color: #818181;
 }
 .product-price{
   font-size: 2.3rem;
   font-weight: bold;
   color: orangered;
+}
+.product-rating{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #818181;
+  margin-bottom: 1rem;
 }
 .product-image{
   max-width: 34rem;
