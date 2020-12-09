@@ -15,6 +15,7 @@ body {
 }
 a {
   text-decoration: none;
+  color: #fff;
 }
 li {
   list-style: none;
@@ -51,7 +52,7 @@ li {
   height: 100vh;
   transition: transform.5s;
 }
-.close-side-bar{
+.close-side-bar {
   border-radius: 50%;
   border: 1px solid orangered;
   width: 35px;
@@ -62,23 +63,28 @@ li {
   font-weight: bold;
   color: orangered;
   cursor: pointer;
+  position: absolute;
+  right: 0.5rem;
+  top: 1.5rem;
 }
-.close-side-bar:focus{
+.close-side-bar:focus {
   outline: none;
 }
-.side-bar ul li{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.side-bar ul li {
+  padding: 1.5rem;
+  border-radius: 4px;
+  border-left: 4px solid #fff;
+  margin: 2px;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
 }
-.side-bar h3,
-.side-bar > ul > li > a{
+.side-bar h3 {
+  margin: 1.7rem;
   color: #fff;
-  text-align: center;
 }
 .side-bar.open {
   transform: translateX(0);
-  transition: .5s;
+  transition: 0.5s;
 }
 
 /* header Section ----------------*/
@@ -98,7 +104,6 @@ li {
 }
 .header-links a {
   margin-right: 15px;
-  color: #fff;
   transition: 0.4s;
 }
 .btn {
