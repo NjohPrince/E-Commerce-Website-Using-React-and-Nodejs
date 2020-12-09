@@ -51,6 +51,21 @@ li {
   height: 100vh;
   transition: transform.5s;
 }
+.close-side-bar{
+  border-radius: 50%;
+  border: 1px solid orangered;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: orangered;
+  cursor: pointer;
+}
+.close-side-bar:focus{
+  outline: none;
+}
 .side-bar ul li{
   display: flex;
   justify-content: center;
