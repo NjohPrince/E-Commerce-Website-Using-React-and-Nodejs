@@ -11,6 +11,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 1.6rem;
   height: 100vh;
+  scroll-behavior: smooth;
 }
 a {
   text-decoration: none;
@@ -27,6 +28,20 @@ li {
     "footer";
   grid-template-columns: 1fr;
   grid-template-rows: 7rem 1fr 7rem;
+}
+
+/* SideBar Section ----------------*/
+
+.brand button{
+  font-size: 3rem;
+  padding: .5rem;
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+.brand button:focus{
+  outline: none;
 }
 
 /* header Section ----------------*/
