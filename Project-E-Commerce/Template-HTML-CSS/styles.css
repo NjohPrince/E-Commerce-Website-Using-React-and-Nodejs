@@ -106,6 +106,8 @@ li {
   justify-content: space-between;
   align-items: center;
   padding: 1.5rem;
+  position: fixed;
+  width: 100%;
 }
 .brand a {
   color: blue;
