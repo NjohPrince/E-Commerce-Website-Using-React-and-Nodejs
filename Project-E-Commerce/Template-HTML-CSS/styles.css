@@ -29,6 +29,14 @@ a{
   justify-content: space-between;
   align-items: center;
 }
+.brand a {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.header-links a {
+  color: #fff;
+}
 .main {
   grid-area: main;
 }
