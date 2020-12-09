@@ -36,6 +36,11 @@ a{
 }
 .header-links a {
   color: #fff;
+  transition: .5s;
+}
+.header-links a:hover {
+  color: orangered;
+  transition: .5s;
 }
 .main {
   grid-area: main;
