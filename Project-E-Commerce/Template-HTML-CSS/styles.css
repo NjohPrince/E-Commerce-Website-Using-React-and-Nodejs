@@ -47,9 +47,11 @@ li {
   position: fixed;
   transform: translateX(-30rem);
   width: 30rem;
+  background-color: #000;
 }
 .side-bar.open {
   transform: translateX(0);
+  transition: .5s;
 }
 
 /* header Section ----------------*/
