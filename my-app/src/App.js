@@ -1,8 +1,7 @@
 import React from "react";
-import {BrowserRouter, Route} from 'react-router-dom';
-import HomeScreen from "./Screens/HomeScreen"
+import {BrowserRouter, Route, Link} from 'react-router-dom';
+import HomeScreen from "./Screens/HomeScreen";
 import ProductScreen from "./Screens/ProductScreen";
-import Data from "./Data";
 import "./App.css";
 
 const openMenu = () => {
@@ -20,7 +19,7 @@ function App() {
         <header className="header">
           <div className="brand">
             <button onClick={openMenu}>&#9776;</button>
-            <a href="index.html">Vehicles Pro</a>
+            <Link to="/" >Vehicles Pro</Link>
           </div>
           <div className="header-links">
             <a href="cart.html">Cart</a>
