@@ -1,7 +1,7 @@
 import React from "react";
 
 function ProductScreen(props) {
-  return <div>Test</div>;
+  return <div>TestDirect</div>;
 }
 
 export default ProductScreen;

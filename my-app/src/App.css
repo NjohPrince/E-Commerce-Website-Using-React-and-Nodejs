@@ -13,6 +13,9 @@ body {
   height: 100vh;
   scroll-behavior: smooth; 
 }
+#root{
+  height: 100%;
+}
 a {
   text-decoration: none;
   color: #fff;
