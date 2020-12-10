@@ -1,6 +1,7 @@
 const Data = {
   products: [
     {
+      _id: "1",
       image: "/images/motorcycle.png",
       name: "Motorcycle",
       brand: "Riders",
@@ -10,6 +11,7 @@ const Data = {
       category: "motorcycles",
     },
     {
+      _id: "2",
       image: "/images/ford.png",
       name: "Ford",
       brand: "Ford",
@@ -19,6 +21,7 @@ const Data = {
       category: "cars",
     },
     {
+      _id: "3",
       image: "/images/motorcycle2.png",
       name: "Cherry Wheel",
       brand: "Motorcycle",
@@ -28,6 +31,7 @@ const Data = {
       category: "motorcycles",
     },
     {
+      _id: "4",
       image: "/images/fordBig.png",
       name: "Ford",
       brand: "Ford",
@@ -37,6 +41,7 @@ const Data = {
       category: "Cars",
     },
     {
+      _id: "5",
       image: "/images/fordOpen.png",
       name: "Lorry Ford",
       brand: "Ford",
@@ -46,6 +51,7 @@ const Data = {
       category: "Cars",
     },
     {
+         _id: '6',
       image: "/images/tractors.png",
       name: "Tractor",
       brand: "Tractor",
@@ -55,6 +61,7 @@ const Data = {
       category: "tractors",
     },
     {
+         _id: '7',
       image: "/images/tractorGo.png",
       name: "Tractor",
       brand: "Tractor",
@@ -64,6 +71,7 @@ const Data = {
       category: "tractors",
     },
     {
+         _id: '8',
       image: "/images/sports.png",
       name: "Sports Bike",
       brand: "Race Bike",
@@ -73,6 +81,7 @@ const Data = {
       category: "sports",
     },
     {
+         _id: '9',
       image: "/images/sports2.png",
       name: "Sports Bike",
       brand: "Race Speedy",
