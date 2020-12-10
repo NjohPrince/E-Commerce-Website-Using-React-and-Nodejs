@@ -73,7 +73,7 @@ const Data = {
     {
          _id: '8',
       image: "/images/sports.png",
-      name: "Sports Bike",
+      name: "Sports  Bike",
       brand: "Race Bike",
       price: 575,
       ratings: 3.5,
