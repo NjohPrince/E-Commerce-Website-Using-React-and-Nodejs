@@ -1,4 +1,4 @@
-export default {
+const Data = {
   products: [
     {
       image: "/images/motorcycle.png",
@@ -20,3 +20,4 @@ export default {
     },
   ],
 };
+export default Data;

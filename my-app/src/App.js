@@ -1,5 +1,5 @@
 import React from "react";
-import data from "./Data";
+import Data from "./Data";
 import "./App.css";
 
 const openMenu = () => {
@@ -61,7 +61,8 @@ function App() {
       <main className="main">
         <div className="products-container">
           <ul className="products">
-            {data.products.map((product) => (
+            {
+            Data.products.map((product) => (
               <li className="product">
                 <img
                   className="product-image"
